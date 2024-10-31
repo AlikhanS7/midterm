@@ -1,0 +1,4 @@
+1.In Git, switch is used to change branches, while checkout can do that and also restore files or commits. switch is more specific and user-friendly for branch management.
+2.git merge combines changes from one branch into another, creating a new commit that incorporates both sets of changes.
+3.After a rebase, the commit history is rewritten to create a linear sequence of commits. This avoids merge commits and makes the history cleaner, but it can alter commit hashes.
+4.In the terminal, local branches are listed simply as their names (e.g., main), while remote branches are prefixed with the remote name (e.g., origin/main). You can see both with git branch -a.
